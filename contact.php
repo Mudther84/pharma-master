@@ -165,10 +165,14 @@ try {
         </div>
     </div>
     <?php
-    $host = "localhost"; // اسم السيرفر
-    $dbname = "pharma_db"; // اسم قاعدة البيانات
-    $username = "root"; // اسم المستخدم (في xampp يكون root افتراضيًا)
-    $password = ""; // كلمة المرور (في xampp تكون فارغة افتراضيًا)
+    $host = "localhost";
+    // اسم السيرفر
+    $dbname = "pharma_db";
+    // اسم قاعدة البيانات
+    $username = "root";
+    // اسم المستخدم (في xampp يكون root افتراضيًا)
+    $password = "";
+    // كلمة المرور (في xampp تكون فارغة افتراضيًا)
 
     try {
         $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
